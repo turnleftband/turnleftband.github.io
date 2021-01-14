@@ -2,20 +2,52 @@
 <html lang="en-us">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>turnleft mofos</title>
+    <title>Turnleft</title>
     <style>
+      html {
+        height: 100%;
+      }
+
       body {
         background-color: #215247;
         color: white;
         font-family: Helvetica;
+        height: 100%;
       }
 
       h1 {
         text-align: center;
       }
+
+      a {
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #203e20;
+        border: 1px solid #336952;
+        text-decoration: none;
+        width: 80px;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      a:first-child {
+        margin-bottom: 5px;
+      }
+
+      .button-container {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
     </style>
   </head>
   <body>
-    <h1>Turnleft</h1>
+    <div class="button-container">
+      <a href="www.google.se">YouTube</a>
+      <a href="www.google.se">Spotify</a>
+    </div>
   </body>
 </html>
