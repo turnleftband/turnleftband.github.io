@@ -14,6 +14,7 @@
       color: white;
       font-family: Helvetica;
       height: 100%;
+      margin: 0px;
     }
 
     h1 {
@@ -24,12 +25,15 @@
       color: white;
       padding: 10px;
       border-radius: 5px;
-      background-color: #133113;
-      border: 1px solid #265f46;
+      border-color: #a3a3a3;
+      border-style: solid;
+      border-width: 1px;
+      background-color: #ffffff;
+      color: #a3a3a3;
       text-decoration: none;
       width: 123px;
       text-align: center;
-      font-weight: bold;
+      font-weight: lighter;
       font-size: 1.25rem;
     }
 
@@ -39,10 +43,42 @@
 
     .button-container {
       display: flex;
-      height: 100%;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      background-color: #ffffff;
+      width: 40%;
+    }
+
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
+    }
+
+    .logo-container {
+      width: 100px;
+      height: auto;
+    }
+
+    .background {
+      background-image: url("static/640.png");
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+    }
+
+    .blur {
+      display: flex;
+      flex-direction: row;
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(16px);
+      height: 100%;
+      width: 100%;
     }
   </style>
   <!-- Facebook Pixel Code -->
@@ -67,9 +103,18 @@
 </head>
 
 <body>
-  <div class="button-container">
-    <a href="www.google.se">YouTube</a>
-    <a href="www.google.se">Spotify</a>
+  <div class="background">
+    <div class="blur">
+      <div class="image-container">
+        <img src="static/640.png" width="240" height="240" />
+      </div>
+      <div class="button-container">
+        <a href="www.google.se">
+          Listen on Spotify
+        </a>
+        <a href="www.google.se">Listen on Youtube</a>
+      </div>
+    </div>
   </div>
 </body>
 
