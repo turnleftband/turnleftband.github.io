@@ -21,33 +21,71 @@
       text-align: center;
     }
 
+    p {
+      color: #444444;
+      margin-top: 20px;
+      margin-bottom: 16px;
+    }
+
     a {
+      text-decoration: none;
+    }
+
+    .button {
       color: white;
       padding: 10px;
-      border-radius: 5px;
-      border-color: #a3a3a3;
+      border-radius: 3px;
+      border-color: #cccccc;
       border-style: solid;
       border-width: 1px;
       background-color: #ffffff;
-      color: #a3a3a3;
-      text-decoration: none;
-      width: 123px;
+      color: #444444;
+      width: 100px;
       text-align: center;
-      font-weight: lighter;
-      font-size: 1.25rem;
+      font-weight: bold;
+      font-size: 0.97rem;
     }
 
-    a:first-child {
-      margin-bottom: 5px;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #ffffff;
+      width: 100%;
+      height: 100%;
     }
 
     .button-container {
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
       background-color: #ffffff;
-      width: 40%;
+      width: 290px;
+      height: 100%;
+    }
+
+    .button-row {
+      display: flex;
+      flex-direction: row;
+      height: 40px;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .spotify-row {
+      height: 40px;
+    }
+
+    .youtube-row {
+      height: 29px;
+      margin-top: 4px;
+      margin-left: 0px;
+    }
+
+    .apple-row {
+      height: 29px;
+      margin-top: 2px;
+      margin-left: 8px;
     }
 
     .image-container {
@@ -56,6 +94,8 @@
       justify-content: center;
       align-items: center;
       width: 60%;
+      margin-top: 24px;
+      margin-bottom: 20px;
     }
 
     .logo-container {
@@ -74,11 +114,22 @@
 
     .blur {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+      align-items: center;
       background: rgba(0, 0, 0, 0.3);
       backdrop-filter: blur(16px);
       height: 100%;
       width: 100%;
+    }
+
+    hr {
+      border: 0;
+      clear: both;
+      display: block;
+      width: 265px;
+      background-color: #e1e1e1;
+      margin: 12px;
+      height: 1px;
     }
   </style>
   <!-- Facebook Pixel Code -->
@@ -106,13 +157,38 @@
   <div class="background">
     <div class="blur">
       <div class="image-container">
-        <img src="static/640.png" width="240" height="240" />
+        <img src="static/640.png" width="260" height="260" />
       </div>
-      <div class="button-container">
-        <a href="www.google.se">
-          Listen on Spotify
-        </a>
-        <a href="www.google.se">Listen on Youtube</a>
+      <div class="content">
+        <div class="button-container">
+          <p><b>AVAILABLE AT</b></p>
+          <div class="button-row">
+            <a href="https://open.spotify.com/track/270iDGNmxJh7zw3axFFKQ7?si=c896b65dfdbc429e">
+              <img src="static/spotify.png" class="spotify-row" />
+            </a>
+            <a href="https://open.spotify.com/track/270iDGNmxJh7zw3axFFKQ7?si=c896b65dfdbc429e">
+              <div class="button">LISTEN</div>
+            </a>
+          </div>
+          <hr>
+          <div class="button-row">
+            <a href="https://www.youtube.com/watch?v=2MfHniGa-1I">
+              <img src="static/youtube.png" class="youtube-row" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=2MfHniGa-1I">
+              <div class="button">LISTEN</div>
+            </a>
+          </div>
+          <hr>
+          <div class="button-row">
+            <a href="https://music.apple.com/us/album/me-myself-and-i/1458248125?i=1458248135">
+              <img src="static/apple.png" class="apple-row" />
+            </a>
+            <a href="https://music.apple.com/us/album/me-myself-and-i/1458248125?i=1458248135">
+              <div class="button">LISTEN</div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
