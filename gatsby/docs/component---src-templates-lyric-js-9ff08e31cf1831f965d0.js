@@ -1,2 +1,0 @@
-(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[110],{241:function(e,t,l){"use strict";l.r(t);var r=l(294);t.default=function(e){var t=e.pageContext;return r.createElement("div",null,t.lyric.title)}}}]);
-//# sourceMappingURL=component---src-templates-lyric-js-9ff08e31cf1831f965d0.js.map
