@@ -1,2 +1,0 @@
-(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[678],{7704:function(e,t,r){"use strict";r.r(t),r.d(t,{default:function(){return n}});var l=r(7294);function n(){return l.createElement("div",null,"Turnleft")}}}]);
-//# sourceMappingURL=component---src-pages-index-js-797b6bf09c74a6f925cd.js.map

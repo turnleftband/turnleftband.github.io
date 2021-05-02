@@ -1,2 +1,0 @@
-(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[110],{241:function(e,t,l){"use strict";l.r(t);var r=l(7294),n=l(7207);t.default=function(e){var t=e.pageContext.lyric,l=t.title,a=t.parts;return r.createElement(n.Z,null,r.createElement("h1",null,l),r.createElement("div",null,a.map((function(e){return r.createElement("p",null,e)}))))}}}]);
-//# sourceMappingURL=component---src-templates-lyric-js-441a57cdf22c6e01d1ba.js.map
