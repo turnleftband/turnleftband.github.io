@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://gatsby-starter-hello-world/./src/pages/index.js"],"names":["Home"],"mappings":"wMAEe,SAASA,IACtB,OAAO","file":"component---src-pages-index-js-797b6bf09c74a6f925cd.js","sourcesContent":["import React from 'react';\n\nexport default function Home() {\n  return <div>Turnleft</div>;\n}\n"],"sourceRoot":""}

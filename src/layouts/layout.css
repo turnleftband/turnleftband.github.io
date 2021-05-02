@@ -2,6 +2,11 @@ html {
   height: 100%;
 }
 
+#gatsby-focus-wrapper,
+#___gatsby {
+  height: 100%;
+}
+
 body {
   background-color: #215247;
   color: white;
@@ -16,10 +21,6 @@ main {
 
 h1 {
   text-align: center;
-}
-
-div {
-  height: 100%;
 }
 
 .button-container__title {
@@ -124,4 +125,19 @@ a {
   -webkit-backdrop-filter: blur(16px);
   height: 100%;
   width: 100%;
+}
+
+.lyric-link {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.lyric-content {
+  text-align: center;
+}
+
+.lyric-part {
+  margin-bottom: 1rem;
+  white-space: pre-line;
+  line-height: 1.8;
 }

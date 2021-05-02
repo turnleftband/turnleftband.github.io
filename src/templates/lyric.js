@@ -6,9 +6,9 @@ const Lyric = ({ pageContext: { lyric } }) => {
   return (
     <Layout>
       <h1>{title}</h1>
-      <div>
+      <div class="lyric-content">
         {parts.map((part) => (
-          <p>{part}</p>
+          <p class="lyric-part">{part}</p>
         ))}
       </div>
     </Layout>
