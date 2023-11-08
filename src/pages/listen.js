@@ -1,6 +1,6 @@
-import React from 'react';
-import Layout from '../layouts/layout';
-import { Helmet } from 'react-helmet';
+import React from "react";
+import Layout from "../layouts/layout";
+import { Helmet } from "react-helmet";
 
 export default function Listen() {
   return (
