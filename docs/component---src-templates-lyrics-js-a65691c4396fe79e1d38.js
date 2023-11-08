@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[860],{8276:function(e,t,a){a.r(t);var l=a(7294),r=a(2231);t.default=e=>{let{pageContext:{pagePath:t,lyrics:a}}=e;return l.createElement(r.Z,{activeTab:"lyrics"},l.createElement("div",{className:"button-container"},l.createElement("h3",{className:"button-container__title"},"Lyrics"),a.map((e=>l.createElement("a",{class:"lyric-link",href:`${t}/${e.url}`},e.title)))))}}}]);
+//# sourceMappingURL=component---src-templates-lyrics-js-a65691c4396fe79e1d38.js.map
