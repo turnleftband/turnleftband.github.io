@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[110],{7868:function(e,t,l){l.r(t);var r=l(7294),a=l(5932);t.default=e=>{let{pageContext:{lyric:t}}=e;const{title:l,parts:c}=t;return r.createElement(a.Z,null,r.createElement("h1",null,l),r.createElement("div",{class:"lyric-content"},c.map((e=>r.createElement("p",{class:"lyric-part"},e)))))}}}]);
+//# sourceMappingURL=component---src-templates-lyric-js-f1fe7d310efcf5f7dc6b.js.map
