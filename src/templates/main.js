@@ -17,7 +17,7 @@ const Main = ({ activeTab, children }) => {
       <div className="background">
         <div className="blur">
           <div style={imageContainerStyle}>
-            <img src="/640.png" width="260" height="260" />
+            <img src="/640.jpg" width="260" height="260" />
             <Menu activeTab={activeTab} />
           </div>
           <div className="content">{children}</div>

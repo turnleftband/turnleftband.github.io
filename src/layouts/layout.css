@@ -51,7 +51,7 @@ a {
 }
 
 .background {
-  background-image: url("/640.png");
+  background-image: url("/640noborder.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
