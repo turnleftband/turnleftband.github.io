@@ -9,7 +9,7 @@ export default function Listen() {
         <h3 className="button-container__title">LISTEN</h3>
         <ButtonRow
           href={
-            "https://open.spotify.com/track/270iDGNmxJh7zw3axFFKQ7?si=c896b65dfdbc429e"
+            "https://open.spotify.com/track/092yVrjhaE0hiXEl8WZM3n?si=3075016b2b994ad6"
           }
           img={"/spotify.svg"}
           title={"TURNLEFT"}
@@ -17,7 +17,7 @@ export default function Listen() {
         />
         <ButtonRow
           href={
-            "https://music.apple.com/us/album/me-myself-and-i/1458248127?i=1458248135"
+            "https://music.apple.com/us/album/wont-be-back/1714026753?i=1714026754"
           }
           img={"/apple.svg"}
           title={"TURNLEFT"}
@@ -25,7 +25,7 @@ export default function Listen() {
         />
         <h3 className="button-container__title">FOLLOW</h3>
         <ButtonRow
-          href={"https://www.youtube.com/watch?v=2MfHniGa-1I"}
+          href={"https://youtu.be/gHnhK9cG6YE?si=uQ2RupLvNjlqDecV"}
           img={"/youtube.svg"}
           title={"@TURNLEFTBAND"}
           buttonTitle={"WATCH"}
