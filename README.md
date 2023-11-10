@@ -8,4 +8,4 @@
 
 ## Build and deploy
 
-run `npm build`, push changes to master branch
+run `npm run build`, push changes to master branch
