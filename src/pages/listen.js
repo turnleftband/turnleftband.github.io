@@ -25,7 +25,7 @@ export default function Listen() {
         />
         <h3 className="button-container__title">FOLLOW</h3>
         <ButtonRow
-          href={"https://youtu.be/gHnhK9cG6YE?si=uQ2RupLvNjlqDecV"}
+          href={"https://youtu.be/r8It1mms5_M?si=7k9vfCE5XeS_7yt3"}
           img={"/youtube.svg"}
           title={"@TURNLEFTBAND"}
           buttonTitle={"WATCH"}

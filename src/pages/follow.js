@@ -20,7 +20,7 @@ export default function Follow() {
           buttonTitle={"FOLLOW"}
         />
         <ButtonRow
-          href={"https://youtu.be/gHnhK9cG6YE?si=uQ2RupLvNjlqDecV"}
+          href={"https://youtu.be/r8It1mms5_M?si=7k9vfCE5XeS_7yt3"}
           img={"/youtube.svg"}
           title={"@TURNLEFTBAND"}
           buttonTitle={"WATCH"}
