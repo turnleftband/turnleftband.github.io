@@ -64,6 +64,12 @@ export default function Follow() {
           title={"TURNLEFT"}
           buttonTitle={"LISTEN"}
         />
+        <ButtonRow
+          href={"https://tidal.com/browse/track/324889390"}
+          img={"/tidal.svg"}
+          title={"TURNLEFT"}
+          buttonTitle={"LISTEN"}
+        />
       </div>
     </Main>
   );

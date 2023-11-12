@@ -39,6 +39,12 @@ export default function Listen() {
           title={"TURNLEFT"}
           buttonTitle={"LISTEN"}
         />
+        <ButtonRow
+          href={"https://tidal.com/browse/track/324889390"}
+          img={"/tidal.svg"}
+          title={"TURNLEFT"}
+          buttonTitle={"LISTEN"}
+        />
         <h3 className="button-container__title">FOLLOW</h3>
         <ButtonRow
           href={"https://youtu.be/r8It1mms5_M?si=7k9vfCE5XeS_7yt3"}
