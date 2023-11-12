@@ -23,6 +23,22 @@ export default function Listen() {
           title={"TURNLEFT"}
           buttonTitle={"LISTEN"}
         />
+        <ButtonRow
+          href={
+            "https://music.youtube.com/watch?v=gHnhK9cG6YE&si=odD4Z16rYbrWxRgS"
+          }
+          img={"/youtubemusic.svg"}
+          title={"TURNLEFT"}
+          buttonTitle={"LISTEN"}
+        />
+        <ButtonRow
+          href={
+            "https://music.amazon.com/albums/B0CLZF1PYT?marketplaceId=A3K6Y4MI8GDYMT&musicTerritory=SE&ref=dm_sh_KzKQVH1hTPfStYttHj5ahBsYe&trackAsin=B0CLZB84HH"
+          }
+          img={"/amazonmusic.png"}
+          title={"TURNLEFT"}
+          buttonTitle={"LISTEN"}
+        />
         <h3 className="button-container__title">FOLLOW</h3>
         <ButtonRow
           href={"https://youtu.be/r8It1mms5_M?si=7k9vfCE5XeS_7yt3"}
