@@ -30,16 +30,16 @@ const ListenSection = ({}) => {
         buttonTitle={"LISTEN"}
       />
       <ButtonRow
-        href={"https://tidal.com/browse/track/324889390"}
-        img={"/tidal.svg"}
-        title={"TURNLEFT"}
-        buttonTitle={"LISTEN"}
-      />
-      <ButtonRow
         href={
           "https://music.amazon.com/albums/B0CLZF1PYT?marketplaceId=A3K6Y4MI8GDYMT&musicTerritory=SE&ref=dm_sh_KzKQVH1hTPfStYttHj5ahBsYe&trackAsin=B0CLZB84HH"
         }
         img={"/amazonmusic.png"}
+        title={"TURNLEFT"}
+        buttonTitle={"LISTEN"}
+      />
+      <ButtonRow
+        href={"https://tidal.com/browse/track/324889390"}
+        img={"/tidal.svg"}
         title={"TURNLEFT"}
         buttonTitle={"LISTEN"}
       />
