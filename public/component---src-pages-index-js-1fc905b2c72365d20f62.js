@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkturnleftband=self.webpackChunkturnleftband||[]).push([[293],{9639:function(e,t,u){u.r(t);var n=u(6139);t.default=n.default}}]);
+//# sourceMappingURL=component---src-pages-index-js-1fc905b2c72365d20f62.js.map

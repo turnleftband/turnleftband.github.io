@@ -3,10 +3,14 @@ import MenuEntry from "./menuEntry";
 
 const containerStyle = {
   backgroundColor: "#232023",
-  opacity: "80%",
   width: "100%",
   "text-align": "center",
   "margin-top": "12px",
+  opacity: "95%",
+  position: "sticky",
+  top: 0,
+  zIndex: 1000,
+  transform: "translateZ(0)",
 };
 
 const sizeWrapperStyle = {
@@ -20,22 +24,26 @@ const style = {
   margin: "0 auto",
 };
 
-const Menu = ({ activeTab }) => {
+const sections = [
+  { id: "listen", title: "LISTEN" },
+  { id: "follow", title: "FOLLOW" },
+  { id: "lyrics", title: "LYRICS" },
+];
+
+const Menu = ({ activeTab, onSelect = () => {} }) => {
   return (
     <div style={containerStyle}>
       <div style={sizeWrapperStyle}>
         <div style={style}>
-          <MenuEntry to="/" title={"LISTEN"} isActive={activeTab == "listen"} />
-          <MenuEntry
-            to="/follow/"
-            title={"FOLLOW"}
-            isActive={activeTab == "follow"}
-          />
-          <MenuEntry
-            to="/lyrics/"
-            title={"LYRICS"}
-            isActive={activeTab == "lyrics"}
-          />
+          {sections.map(({ id, title }) => (
+            <MenuEntry
+              key={id}
+              id={id}
+              title={title}
+              isActive={activeTab == id}
+              onSelect={onSelect}
+            />
+          ))}
         </div>
       </div>
     </div>

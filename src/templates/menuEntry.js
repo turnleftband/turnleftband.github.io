@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "@gatsbyjs/reach-router";
 
 const containerStyle = {
   display: "flex",
@@ -15,18 +14,33 @@ const linkStyle = {
   color: "#FFFFFF",
 };
 
-const MenuEntry = ({ to, title, isActive }) => {
+const MenuEntry = ({ id, title, isActive, onSelect }) => {
+  const href = `/#${id}`;
+
   const lineStyle = {
     height: "2px",
     width: "100%",
     backgroundColor: isActive ? "#FFFFFF" : "transparent",
   };
 
+  const handleClick = (event) => {
+    const target = document.getElementById(id);
+
+    if (!target) {
+      return;
+    }
+
+    event.preventDefault();
+    onSelect(id);
+    window.history.pushState(null, "", `#${id}`);
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
     <div style={containerStyle}>
-      <Link to={to} style={linkStyle}>
+      <a href={href} style={linkStyle} onClick={handleClick}>
         {title}
-      </Link>
+      </a>
       <div style={lineStyle}></div>
     </div>
   );
