@@ -12,8 +12,8 @@
   "scripts": {
     "build": "OUTPUT_DIR=/docs gatsby build",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
+    "start": "gatsby develop --host 127.0.0.1 --port ${PORT:-8001}",
+    "serve": "gatsby serve --host 127.0.0.1 --port ${PORT:-9001}",
     "clean": "gatsby clean",
     "test": "echo \"No tests needed\" && exit 1"
   },
