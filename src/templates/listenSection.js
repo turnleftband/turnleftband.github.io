@@ -7,23 +7,21 @@ const ListenSection = ({}) => {
       <h3 className="button-container__title">LISTEN</h3>
       <ButtonRow
         href={
-          "https://open.spotify.com/track/092yVrjhaE0hiXEl8WZM3n?si=3075016b2b994ad6"
+          "https://open.spotify.com/track/5xuyQVfVuk8T38cEtf4s2j?si=b03f0bedb44a4fba"
         }
         img={"/spotify.svg"}
         title={"TURNLEFT"}
         buttonTitle={"LISTEN"}
       />
       <ButtonRow
-        href={
-          "https://music.apple.com/us/album/wont-be-back/1714026753?i=1714026754"
-        }
+        href={"https://music.apple.com/us/song/without-you/6774369615"}
         img={"/apple.svg"}
         title={"TURNLEFT"}
         buttonTitle={"LISTEN"}
       />
       <ButtonRow
         href={
-          "https://music.youtube.com/watch?v=gHnhK9cG6YE&si=odD4Z16rYbrWxRgS"
+          "https://music.youtube.com/playlist?list=OLAK5uy_leW8H-T_jy7kgyChyVxv4MdqnFYI3CKmo&si=b48SWOzUeIRpRZge"
         }
         img={"/youtubemusic.svg"}
         title={"TURNLEFT"}
@@ -31,14 +29,14 @@ const ListenSection = ({}) => {
       />
       <ButtonRow
         href={
-          "https://music.amazon.com/albums/B0CLZF1PYT?marketplaceId=A3K6Y4MI8GDYMT&musicTerritory=SE&ref=dm_sh_KzKQVH1hTPfStYttHj5ahBsYe&trackAsin=B0CLZB84HH"
+          "https://music.amazon.com/tracks/B0H386VBWR?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_qF2VlCa8BP1loyRCeqJwTGwO6"
         }
         img={"/amazonmusic.png"}
         title={"TURNLEFT"}
         buttonTitle={"LISTEN"}
       />
       <ButtonRow
-        href={"https://tidal.com/browse/track/324889390"}
+        href={"https://tidal.com/album/528846614/track/528846615"}
         img={"/tidal.svg"}
         title={"TURNLEFT"}
         buttonTitle={"LISTEN"}

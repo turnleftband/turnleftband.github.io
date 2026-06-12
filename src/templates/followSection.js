@@ -18,7 +18,7 @@ const FollowSection = ({}) => {
         buttonTitle={"FOLLOW"}
       />
       <ButtonRow
-        href={"https://youtu.be/r8It1mms5_M?si=7k9vfCE5XeS_7yt3"}
+        href={"https://www.youtube.com/watch?v=w8mt7FmPR7I"}
         img={"/youtube.svg"}
         title={"@TURNLEFTBAND"}
         buttonTitle={"WATCH"}

@@ -2,7 +2,6 @@ import React from "react";
 import Main from "../templates/main";
 import FollowSection from "../templates/followSection";
 import ListenSection from "../templates/listenSection";
-import SocialUnlockWidget from "../templates/socialUnlockWidget";
 import lyrics from "../../data/lyrics";
 
 export default function Listen() {
@@ -10,7 +9,6 @@ export default function Listen() {
     <Main activeTab={"listen"}>
       <div className="button-container">
         <section id="listen" className="page-section">
-          <SocialUnlockWidget />
           <ListenSection />
         </section>
         <section id="follow" className="page-section">

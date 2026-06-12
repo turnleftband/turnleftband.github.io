@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-index-js-8f8687d3853b4a451288.js","mappings":"qIAEA,UAAeA,EAAM,O","sources":["webpack://turnleftband/./src/pages/index.js"],"sourcesContent":["import Listen from './listen';\n\nexport default Listen;\n"],"names":["Listen"],"sourceRoot":""}

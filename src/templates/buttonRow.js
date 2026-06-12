@@ -50,11 +50,16 @@ const titleStyle = {
 const ButtonRow = ({ href, img, title, buttonTitle }) => {
   return (
     <div style={buttonRowStyle}>
-      <a style={buttonRowImageLinkStyle} href={href}>
+      <a
+        style={buttonRowImageLinkStyle}
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={img} style={imageStyle} />
         <p style={titleStyle}>{title}</p>
       </a>
-      <a href={href}>
+      <a href={href} target="_blank" rel="noopener noreferrer">
         <div style={buttonStyle}>{buttonTitle}</div>
       </a>
     </div>
